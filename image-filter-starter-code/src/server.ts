@@ -1,7 +1,8 @@
 import express from 'express';
 import { Request, Response, Router} from 'express';
 import bodyParser from 'body-parser';
-import {filterImageFromURL, deleteLocalFiles} from './util/util';
+import { filterImageFromURL, deleteLocalFiles } from './util/util';
+
 
 (async () => {
 
@@ -34,10 +35,39 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   
   // Root Endpoint
   // Displays a simple message to the user
+
   app.get( "/", async ( req: Request, res: Response ) => {
     res.send("try GET /filteredimage?image_url={{}}")
   } );
+
+
+  //image url validation
   
+  app.get( "/filteredimage", async ( req: Request, res: Response ) => {
+    const image_url: string   = req.query.image_url;
+    const url_regex    = new RegExp(/([a-z]+\:\/+)([^\/\s]+)([a-z0-9\-@\^=%&;\/~\+]*)[\?]?([^ \#\r\n]*)#?([^ \#\r\n]*)\.(?:jpeg|jpg|gif|png|svg)/ig);
+    const isValidUrl  = url_regex.test(image_url);
+    
+    if (!isValidUrl) {
+      return res.status(400)
+                .send(`${image_url}!, must be a valid image url`);
+    }
+    const filter_image_path: string = await filterImageFromURL(image_url);
+    try {
+      let filter_image_file: string = await filterImageFromURL(image_url);
+      await res.status(200)
+                .sendFile(filter_image_file);
+      } 
+      catch(error) {
+          res.status(422)
+              .send("Image format not supported!");
+      }
+
+    }
+    //res.on('finish', () => deleteLocalFiles([image_file]));
+    //return res.status(200)
+    //          .send(`Click on this link:, ${image_url}! to donwload your image`);
+  );
 
   // Start the Server
   app.listen( port, () => {
