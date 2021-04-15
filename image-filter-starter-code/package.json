@@ -2,7 +2,7 @@
   "name": "udacity-c2-image-filter",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.ts",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -35,8 +35,8 @@
     "jimp": "^0.16.1",
     "rimraf": "^3.0.2"
   },
-  "engines" : { 
-    "node" : "v14.0.0",
-    "npm"  : "^6.0.0"  
+  "engines": {
+    "node": "v14.0.0",
+    "npm": "^6.0.0"
   }
 }
