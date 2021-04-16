@@ -13,3 +13,5 @@ export const config = {
         "aws_port": process.env.PORT
     }
 }
+
+export type image_url = "image_url";
