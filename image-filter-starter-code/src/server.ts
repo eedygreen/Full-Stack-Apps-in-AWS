@@ -43,7 +43,7 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
   
   app.get( "/filteredimage", async ( req: Request, res: Response ) => {
     //passing the url
-    const image_url: string   = req.query.image_url;
+    const image_url: any  = req.query.image_url;
 
     //1. construct a regex to check if the url is public and its with image file
     const url_regex    = new RegExp(/([a-z]+\:\/+)([^\/\s]+)([a-z0-9\-@\^=%&;\/~\+]*)[\?]?([^ \#\r\n]*)#?([^ \#\r\n]*)\.(?:jpeg|jpg|gif|png|svg|bpm|tiff)/ig);
