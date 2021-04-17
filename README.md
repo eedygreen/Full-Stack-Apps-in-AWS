@@ -19,8 +19,8 @@ Following good cloud practices, development and production environment created f
 ### Development Server
 
 - Install the dependencies
-
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_i.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_i.png)
+`npm i`
+![npm install](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_i.png)
 
 Fig 1.0: Installing Dependencies
 
@@ -30,7 +30,7 @@ Fig 1.0: Installing Dependencies
 
 `npm run dev` 
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_dev.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_dev.png)
+![npm run dev(https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_dev.png)
 
 Fig 2.0: Dev Server Running
 
