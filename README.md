@@ -1,1 +1,0 @@
-# Full-Stack-Apps-in-AWS
