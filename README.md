@@ -30,7 +30,7 @@ Fig 1.0: Installing Dependencies
 
 `npm run dev` 
 
-![npm run dev(https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_dev.png)
+![npm run dev](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_dev.png)
 
 Fig 2.0: Dev Server Running
 
@@ -75,7 +75,7 @@ const url_regex    = new RegExp(/([a-z]+\:\/+)([^\/\s]+)([a-z0-9\-@\^=%&;\/~\+]*
 
     It failed as expected. The url validator only checks for a valid url with condition; publicly accessible and image file type. While the image filter checks if this is a supported format. 
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/image_processed_status_422.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/image_processed_status_422.png)
+![image_processed_status_422](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/image_processed_status_422.png)
 
 Fig 3.0: Status Code 422
 
@@ -98,7 +98,7 @@ try {
 
 It passed the testing as expected
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/image_processd_status_200.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/image_processd_status_200.png)
+![image_processd_status_200](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/image_processd_status_200.png)
 
 Fig 4.0: Status Code 200
 
@@ -112,7 +112,7 @@ Fig 4.0: Status Code 200
 npm run build
 ```
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_build.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_build.png)
+![npm_run_build](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/npm_run_build.png)
 
 Fig 5.0: Build the Application
 
@@ -124,7 +124,7 @@ Fig 5.0: Build the Application
 eb init --platform node.js --region us-east-1
 ```
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_init.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_init.png)
+![Reb_init](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_init.png)
 
 Fig 6.0: Initialised  ElasticBeanstalk
 
@@ -136,7 +136,7 @@ Fig 6.0: Initialised  ElasticBeanstalk
 eb create --sample full-stack
 ```
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_create.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_create.png)
+![eb_create](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_create.png)
 
 Fig 7.1: Create ElasticBeanstalk
 
@@ -144,7 +144,7 @@ Fig 7.1: Create ElasticBeanstalk
 
 - ElasticBeanstalk Dashboard
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/ElasticBeanstalk_created.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/ElasticBeanstalk_created.png)
+![ElasticBeanstalk_created](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/ElasticBeanstalk_created.png)
 
 Fig 7.2: ElasticBeanstalk Dashboard
 
@@ -152,7 +152,7 @@ Fig 7.2: ElasticBeanstalk Dashboard
 
 - Testing Full-Stack Endpoint
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/elasticbeanstalk_endpoint.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/elasticbeanstalk_endpoint.png)
+![elasticbeanstalk_endpoint](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/elasticbeanstalk_endpoint.png)
 
 Fig 8.0: Full-Stack Endpoint
 
@@ -166,17 +166,17 @@ eb deploy
 
 Fig 8.0: ElasticBaeanstalk Deployment
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_deploy_app.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_deploy_app.png)
+![eb_deploy_app](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/eb_deploy_app.png)
 
 Fig 9.1: ElasticBeanstalk Deployment
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/app_deployed.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/app_deployed.png)
+![app_deployed](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/app_deployed.png)
 
 Fig 9.2: ElasticBeanstalk Deployment - Dashboard
 
 - Response to Public URL
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/endpoint_downloading_link.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/endpoint_downloading_link.png)
+![endpoint_downloading_link](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/endpoint_downloading_link.png)
 
 Fig 10.1: Filteredimeage download the public image
 
@@ -184,21 +184,22 @@ Fig 10.1: Filteredimeage download the public image
 
 - filteredimage Endpoint
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/endpoint_elasticbeanstalk_download_image.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/endpoint_elasticbeanstalk_download_image.png)
+![endpoint_elasticbeanstalk_download_image](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/endpoint_elasticbeanstalk_download_image.png)
 
 Fig 10.2: filteredimage
 
-[http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15921/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png](http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15921/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png)
+![filteredimage](http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15921/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png)
 
-![README%20md%20a7c97124b5464973a7e6001c60fa892c/cat.png](README%20md%20a7c97124b5464973a7e6001c60fa892c/cat.png)
+![cat](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/cat.png)
 
 Fig 11.1: Cat
 
-[http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg](http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg)
+![upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01](http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg)
 
 ### The ElasticBeanstalk Public URL
 
-[http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com](http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg)
+http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com
+http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
 ### Problems Encounter and Solution
 
