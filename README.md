@@ -193,13 +193,15 @@ Fig 10.2: filteredimage
 ![cat](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/cat.png)
 
 Fig 11.1: Cat
+### Public URL
+https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
-![upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01]
+### ElasticBeanstalk Public URL
 http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
-### The ElasticBeanstalk Public URL
-
+### Public URL
 http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com
+### The ElasticBeanstalk Public URL
 http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
 ### Problems Encounter and Solution
