@@ -188,13 +188,14 @@ Fig 10.1: Filteredimeage download the public image
 
 Fig 10.2: filteredimage
 
-![filteredimage](http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15921/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png)
+![filteredimage]http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://bs-uploads.toptal.io/blackfish-uploads/blog/post/seo/og_image_file/og_image/15921/secure-rest-api-in-nodejs-18f43b3033c239da5d2525cfd9fdc98f.png
 
 ![cat](https://github.com/eedygreen/Full-Stack-Apps-in-AWS/blob/dev/Export-7f04e737-f879-4b4f-9743-f15df834b139/README%20md%20a7c97124b5464973a7e6001c60fa892c/cat.png)
 
 Fig 11.1: Cat
 
-![upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01](http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg)
+![upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01]
+http://full-stack.eba-3tfrxr3e.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
 
 ### The ElasticBeanstalk Public URL
 
